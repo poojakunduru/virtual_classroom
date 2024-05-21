@@ -39,7 +39,6 @@ createButton.addEventListener('click', (e) => {
         }
     }, 500);
 
-    //const name = nameField.value;
     location.href = `/room.html?room=${uuidv4()}`;
 });
 
